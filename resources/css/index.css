@@ -2,7 +2,40 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
+header {
+  display: inline-block;
+  z-index: ;
+}
+
 h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: khaki;
+  z-index: 1;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 24px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+}
+
+.image-container h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .brushes {
@@ -15,7 +48,7 @@ h1 {
   background-color: rgb(248, 132, 100);
 }
 
-.frames {
+.paint {
   color: white;
   background-color: rgb(162, 196, 233);
 }
